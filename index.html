@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>GOUndangan - Website Undangan Digital</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="udgn.png" />
+    <!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header
+      class="header-area header-sticky wow slideInDown"
+      data-wow-duration="0.75s"
+      data-wow-delay="0s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="#top" class="logo">
+                <img src="didij.png" alt="Chain App Dev" />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#services">Fitur</a>
+                </li>
+                <!-- <li class="scroll-to-section"><a href="#about">About</a></li> -->
+                <li class="scroll-to-section">
+                  <a href="#clients">Desain</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#pricing">Harga</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#newsletter">Kontak</a>
+                </li>
+                <li>
+                  <div class="gradient-button">
+                    <i class="fa fa-"></i>
+                    <a
+                      id="modal_trigger"
+                      href="https://api.whatsapp.com/send?phone=+6285159669528&text=Halo Kak, Saya mau pesan undangan digital web dong :)"
+                      >085-159-669-528</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div id="modal" class="popupContainer" style="display: none">
+      <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+      </div>
+
+      <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+          <div class="">
+            <a href="#" class="social_box fb">
+              <span class="icon"><i class="fab fa-facebook"></i></span>
+              <span class="icon_title">Connect with Facebook</span>
+            </a>
+
+            <a href="#" class="social_box google">
+              <span class="icon"><i class="fab fa-google-plus"></i></span>
+              <span class="icon_title">Connect with Google</span>
+            </a>
+          </div>
+
+          <div class="centeredText">
+            <span>Or use your Email address</span>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half">
+              <a href="#" id="login_form" class="btn">Login</a>
+            </div>
+            <div class="one_half last">
+              <a href="#" id="register_form" class="btn">Sign up</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+          <form>
+            <label>Email / Username</label>
+            <input type="text" />
+            <br />
+
+            <label>Password</label>
+            <input type="password" />
+            <br />
+
+            <div class="checkbox">
+              <input id="remember" type="checkbox" />
+              <label for="remember">Remember me on this computer</label>
+            </div>
+
+            <div class="action_btns">
+              <div class="one_half">
+                <a href="#" class="btn back_btn"
+                  ><i class="fa fa-angle-double-left"></i> Back</a
+                >
+              </div>
+              <div class="one_half last">
+                <a href="#" class="btn btn_red">Login</a>
+              </div>
+            </div>
+          </form>
+
+          <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+          <form>
+            <label>Full Name</label>
+            <input type="text" />
+            <br />
+
+            <label>Email Address</label>
+            <input type="email" />
+            <br />
+
+            <label>Password</label>
+            <input type="password" />
+            <br />
+
+            <div class="checkbox">
+              <input id="send_updates" type="checkbox" />
+              <label for="send_updates">Send me occasional email updates</label>
+            </div>
+
+            <div class="action_btns">
+              <div class="one_half">
+                <a href="#" class="btn back_btn"
+                  ><i class="fa fa-angle-double-left"></i> Back</a
+                >
+              </div>
+              <div class="one_half last">
+                <a href="#" class="btn btn_red">Register</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div
+      class="main-banner wow fadeIn"
+      id="top"
+      data-wow-duration="1s"
+      data-wow-delay="0.5s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div
+                  class="left-content show-up header-text wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="1s"
+                >
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h2>Jasa Pembuatan Undangan Digital Website</h2>
+                      <p>
+                        GOUndangan adalah Bisnis Jasa Undangan Digital Berbasis
+                        Website dengan fitur lengkap, proses cepat, banyak
+                        pilihan desain dan harga yang ekonomis.
+                      </p>
+                    </div>
+                    <div class="col-lg-12">
+                      <div
+                        class="white-button first-button scroll-to-section gradient-button"
+                      >
+                        <a
+                          href="https://api.whatsapp.com/send?phone=+6285159669528&text=Halo Kak, Saya mau pesan undangan digital website"
+                          >Order<i class="fab fa-whatsapp"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="white-button scroll-to-section gradient-button"
+                      >
+                        <a href="#clients"
+                          >Lihat Desain<i class="fa fa-mobile"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="right-image wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  <img src="tempud.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services" class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div
+              class="section-heading wow fadeInDown"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <h4>Fitur Website</h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Banyak fitur yang dapat anda gunakan untuk mempercantik dan
+                melengkapi informasi diwebsite pernikahan anda. Beberapa
+                fasilitas-fasilitas yang tersedia antara lain
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="service-item first-service">
+              <div class="icon"></div>
+              <h4>Banyak Pilihan Desain</h4>
+              <p>
+                Anda dapat memilih banyak design website anda sesuka hati
+                disesuaikan dengan kesukaan anda.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item second-service">
+              <div class="icon"></div>
+              <h4>Informasi kedua Mempelai</h4>
+              <p>
+                Profile kedua mempelai beserta foto dapat anda pasang diweb
+                Pernikahan anda.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item third-service">
+              <div class="icon"></div>
+              <h4>Informasi Acara</h4>
+              <p>
+                Website pernikahan anda dilengkapi dengan acara yang dilangsukan
+                seperti akad dan resepsi.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item fourth-service">
+              <div class="icon"></div>
+              <h4>Support 24 Jam</h4>
+              <p>
+                Kami memastikan website anda tetap berjalan baik dengan dukungan
+                penuh dan support web dengan aman.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="service-item first-service">
+              <div class="icon"></div>
+              <h4>Google Maps</h4>
+              <p>
+                Anda dengan mudah memasang lokasi acara dan dibagikan melalui
+                Google Maps.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item second-service">
+              <div class="icon"></div>
+              <h4>Photo Galeri</h4>
+              <p>
+                Upload banyak photo prewedding ataupun postwedding anda, website
+                anda semakin cantik
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item third-service">
+              <div class="icon"></div>
+              <h4>Gratis Subdomain</h4>
+              <p>
+                Membuat Website Pernikahan disini anda mendapatkan subdomain
+                seperti website pada umumnya.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item fourth-service">
+              <div class="icon"></div>
+              <h4>Photo Slide</h4>
+              <p>
+                Upload banyak photo slide yang dapat bergerak sehingga website
+                anda semakin menarik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="the-clients section" id="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>Template Desain</h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Kami menyedikan template undangan pernikahan anda yang sangat
+                menarik dan banyak pilihan beberapa diantaranya adalah seperti
+                dibawah ini
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 1</h3>
+              </div>
+
+              <a href="images/projects/Tema1.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema1.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 2</h3>
+              </div>
+
+              <a href="images/projects/Tema2.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema2.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 3</h3>
+              </div>
+
+              <a href="images/projects/Tema3.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema3.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 4</h3>
+              </div>
+
+              <a href="images/projects/Tema4.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema4.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 5</h3>
+              </div>
+
+              <a href="images/projects/Tema5.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema5.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="projects-thumb">
+              <div class="projects-info">
+                <h3 class="projects-title centeredText">Template 6</h3>
+              </div>
+
+              <a href="images/projects/Tema6.jpg" class="popup-image">
+                <img
+                  src="images/projects/Tema6.jpg"
+                  class="projects-image img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="pricing" class="pricing-tables">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>Paket Undangan Digital</h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Beberapa pilihan paket yang dapat anda gunakan, silahkan pilih
+                sesuai dengan yang anda butuhkan Jangan ragu untuk bertanya
+                kepada kami jika ingin lebih jelas
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="pricing-item-regular">
+              <span class="price">Rp.50rb</span>
+              <h4>Paket Standar</h4>
+              <div class="icon">
+                <img src="assets/images/pricing-table-01.png" alt="" />
+              </div>
+              <ul>
+                <li>Subdomain Gratis</li>
+                <li>Pilihan Template Terbatas</li>
+                <li class="">Fitur Standar</li>
+                <li class="">Photo Galeri Maksimum 5-10 Photo</li>
+                <li class="">Masa Aktif 2 Bulan</li>
+                <li class="">Background Musik</li>
+              </ul>
+              <div class="border-button">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+6285159669528&text=Halo Kak, Saya mau pesan undangan digital website dengan paket standar"
+                  >Silahkan Order</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="pricing-item-regular">
+              <span class="price">Rp.75rb</span>
+              <h4>Paket Pro</h4>
+              <div class="icon">
+                <img src="assets/images/pricing-table-01.png" alt="" />
+              </div>
+              <ul>
+                <li>Subdomain Gratis</li>
+                <li>Pilihan Template Tak Terbatas</li>
+                <li class="">Fitur Pro</li>
+                <li class="">Photo Galeri Maksimum 50 Photo</li>
+                <li class="">Masa Aktif 6 Bulan</li>
+                <li class="">
+                  Background Musik, Kirim Undangan Menggunakan Nama
+                </li>
+              </ul>
+              <div class="border-button">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+6285159669528&text=Halo Kak, Saya mau pesan undangan digital website dengan paket pro"
+                  >Silahkan Order</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="pricing-item-regular">
+              <span class="price">Rp.100rb</span>
+              <h4>Paket Premium</h4>
+              <div class="icon">
+                <img src="assets/images/pricing-table-01.png" alt="" />
+              </div>
+              <ul>
+                <li>Domain Gratis</li>
+                <li>Pilihan Template Tak Terbatas</li>
+                <li class="">Fitur Premium</li>
+                <li class="">Photo Galeri Tanpa Batas</li>
+                <li class="">Masa Aktif 1 Tahun</li>
+                <li class="">
+                  Background Musik, Kirim Undangan Menggunakan Nama, RSVP
+                  Undangan
+                </li>
+              </ul>
+              <div class="border-button">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+6285159669528&text=Halo Kak, Saya mau pesan undangan digital website dengan paket premium"
+                  >Silahkan Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>Kontak Kami</h4>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-3">
+            <form id="search" action="#" method="GET">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <input
+                      type="address"
+                      name="address"
+                      class="email"
+                      placeholder="Email Address..."
+                      autocomplete="on"
+                      required
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <button type="submit" class="main-button">
+                      Subscribe Now <i class="fa fa-angle-right"></i>
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>Kontak</h4>
+              <p>Cirebon, Klangenan</p>
+              <p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=6285159669528&text=Halo"
+                  >085-159-669-528</a
+                >
+              </p>
+              <p>
+                <a href="mailto:hidayaayt09@gmail.com">hidayaayt09@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>Halaman Website</h4>
+              <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#services">Fitur Website</a></li>
+                <li><a href="#clients">Template Desain</a></li>
+                <li><a href="#pricing">Paket Undangan</a></li>
+                <li><a href="#newsletter">Kontak Kami</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>Tentang Kami</h4>
+              <div class="logo">
+                <img src="udgn.png" alt="" />
+              </div>
+              <p>
+                GOUndangan adalah Jasa Undangan Digital Berbasis Website dengan
+                fitur lengkap, proses cepat, banyak pilihan desain dan harga
+                ekonomis.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>Copyright © 2024 GOUndangan All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "goundangan-1",
+		"path": "."
+	},
+	{
+		"name": "product",
+		"path": "../t-faces.github.io/product"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goundangan-1"
+  }
+}
